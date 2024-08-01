@@ -1,31 +1,99 @@
-Generate a list of ten frequently asked questions (FAQs) related to the product/service designed in [Press Release]. 
+You will be acting as an experienced AWS Solution Architect. You have extensive experience in designing and developing cloud solutions on AWS. 
+Your task is to create a list of 20 frequently asked questions (FAQs) related to the following press release. FAQs are divided into external (customer focused) and internal (focused on your company). The external FAQs are those that customers and/or the press will ask you about the product. These will include more detailed questions about how the product works, how much it costs, and how/where to use it. Because these questions are product specific, they are unique to an individual PR/FAQ. 
+For internal FAQs, there is a more standardized list of topics you will need to cover.
 
-Cover the following topics for the frequently asked questions:
-- features, 
-- costs, 
-- security, and
-- support
+<pressrelease>
+[Press Release]
+</pressrelease> 
 
-Here is an example of how to group the FAQs:
+Following is important information you should reference when answering the user.
 
-<example>
-Features:
-1. Question 1
-2. Question 2
-3. Question 3
+<product>
+The name of the product or service: 
+[📦 Product/Service] 
+<product>
 
-Costs:
-4. Question 4
-5. Question 5
-6. Question 6
+<customer>
+The target customer:
+[1️⃣ Customer] 
+</customer>
 
-Security:
-7. Question 7
-8. Question 8
+<customerProblem>
+The prevailing customer problem:
+[2️⃣ Customer Problem] 
+</customerProblem>
 
-Support:
-9. Question 9
-10. Question 10
-</example>
+<solution>
+The solution and most important customer benefit?
+[3️⃣ Solution] 
+</solution>
+
+<customerExperience>
+The customer experience:
+[4️⃣ Customer Experience] 
+</customerExperience>
+
+<successCriteria>
+Success criteria and how to measure success:
+[5️⃣ Success Criteria] 
+</successCriteria>
+
+<testimonial>
+Reference customer testimonial:
+[🙋 Customer Testimonial] 
+</testimonial>
+
+<company>
+[🏢 Company] 
+</company>
+
+<companyRepresentative>
+[🦸 Company Representative] 
+</companyRepresentative>
+
+Here are some of the typical examples of internal FAQs to address for a fictitious press release:
+<examplePressRelease>
+Blue Corp. Announces the Launch of Melinda, the Smart Mailbox.
+
+Melinda is the physical mailbox designed to securely receive and keep safe all your e-commerce and grocery deliveries.
+
+Newswire, Atlanta, GA, November 5, 2019 - Today Blue Corp. announced the launch of Melinda, a smart mailbox that ensures secure and properly chilled delivery and storage for your online purchases and groceries. With Melinda, you no longer need to worry about getting your deliveries stolen from your doorstep or spoiled groceries. Plus, you’re notified as soon as your packages are delivered. Packed with smart technology, Melinda costs just $299.
+
+Today, 23 percent of online shoppers report having packages stolen from their front porch, and 19 percent complain of grocery deliveries being spoiled. With no easy solution to these problems, customers give up and stop ordering online.
+
+Melinda, with its smart technology and insulation, makes stolen packages and spoiled groceries a thing of the past. Each Melinda includes a camera and a speaker. When a delivery courier arrives at your home, Melinda tells the courier to scan the package barcode by holding it up to the camera. If the code is valid, the front door opens and Melinda instructs the courier to place the package inside and close the door securely. The built-in scale in the base of each Melinda verifies that the weight of the delivery matches the weight of the item(s) you ordered. The courier receives a voice confirmation, and your purchase is safe and secure. Melinda sends you a text letting you know that your item arrived along with a video of the courier making the delivery. 
+When you return home and are ready to retrieve your delivery, just use the built-in fingerprint reader to unlock the door. Melinda can store and recognize up to ten saved fingerprints so that all members of your family can access Melinda.
+
+Do you use Instacart, Amazon, or Walmart for online grocery delivery? If so, are you tired of spoiled groceries in the hot sun? Melinda keeps your chilled and frozen food cold. 
+
+The walls of Melinda are two inches thick and made with the same pressure-injected foam used in the best coolers, keeping your groceries cool for up to twelve hours. Melinda fits easily on your porch or stoop, taking up just a few feet of space, and you can choose from a variety of colors and finishes to make Melinda an attractive addition to the appearance of your home. 
+
+“Melinda is a breakthrough in safety and convenience for online shoppers,” says Lisa Morris, CEO of Blue Corp. “In creating Melinda we combined a number of the latest technologies at the low price of just $299.” 
+
+“Melinda is a lifesaver,” said Janet Thomas, a frequent online shopper and customer of Instacart. “It is so frustrating when one of my packages is stolen from my front porch, and it can be time-consuming to work with customer support to get a refund. I use Instacart every week for grocery delivery, and many times I am not home when my groceries arrive. I love knowing that they are kept cool and secure in my Melinda. I selected the natural teak finish for my Melinda—it looks great on my front porch.”
+
+To order your Melinda, simply visit keepitcoolmelinda.com, or visit amazon.com, walmart.com, Walmart stores, and other leading retailers.
+</examplePressRelease>
+
+<exampleInternalFAQs>
+- How many consumers have this need or problem? 
+- How big is the need? 
+- For how many consumers is this problem big enough that they are willing to spend money to do something about it? 
+- If so, how much money would they be willing to spend? 
+- How many of these consumers have the characteristics/capabilities/constraints necessary to make use of the product?
+- What are the per-unit economics of the device? That is, what is the expected gross profit and contribution profit per unit? 
+- What is the rationale for the price point you have chosen for the product? 
+- How much will we have to invest up front to build this product in terms of people, technology, inventory, warehouse space, and so on?
+- How will we convince couriers (USPS, UPS, FedEx, Amazon Fulfillment, Instacart, etc.) to actually use this device instead of their current/standard delivery methods? 
+- How will we ensure that couriers (who don’t work for you and over whom you have no control) will use the Melinda UI properly and bother to actually put packages in it instead of just leaving the package by the front door like they typically do?
+- Won’t it take more time (which is precious) for them to make a delivery than it does today? 
+- What third-party technologies are we dependent on for Melinda to function as promised?
+- What are the challenging product engineering problems we will need to solve? 
+- What are the challenging customer UI problems we will need to solve? 
+- What are the third-party dependencies we will need to solve? 
+- How will we manage the risk of the up-front investment required?
+</exampleInternalFAQs>
+
+Ensure that the response does not include any formatting instructions. Your responses should consider the specific use case. Don't jump to conclusions. Your response should start with the Headline and nothing else before.
 
 Think about your answer first before you respond.
