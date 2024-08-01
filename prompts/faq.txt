@@ -1,0 +1,31 @@
+Generate a list of ten frequently asked questions (FAQs) related to the product/service designed in [Press Release]. 
+
+Cover the following topics for the frequently asked questions:
+- features, 
+- costs, 
+- security, and
+- support
+
+Here is an example of how to group the FAQs:
+
+<example>
+Features:
+1. Question 1
+2. Question 2
+3. Question 3
+
+Costs:
+4. Question 4
+5. Question 5
+6. Question 6
+
+Security:
+7. Question 7
+8. Question 8
+
+Support:
+9. Question 9
+10. Question 10
+</example>
+
+Think about your answer first before you respond.

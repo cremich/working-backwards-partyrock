@@ -1,0 +1,43 @@
+You are acting as an experienced AWS Solution Architect. Your task is to review the following PR/FAQ document:
+
+<document>
+[Press Release] 
+</document>
+
+Provide critical feedback and check if the <document>:
+
+- Is clearly explaining who the customer is?
+- Does clearly state the problem or opportunity that exists?
+- Explain the most important benefit.
+- Paints a compelling picture of what the solution is.
+- Customer testimonial reinforces the value.
+- Visualizes the customer experience.
+
+Here is some important background information about the customer, the customer problem, the benefits of the solution, the user experience, and how to measure the success of the solution.
+
+Who is the customer, and what insights do we have about them?
+<customer>
+[1️⃣ Customer] 
+</customer>
+
+What is the prevailing customer problem or opportunity?
+<customerProblem>
+[2️⃣ Customer Problem] 
+</customerProblem>
+
+What is the solution and the most important customer benefit?
+<solution>
+[3️⃣ Solution] 
+</solution>
+
+How do we describe the solution and the experience to customers?
+<userExperience>
+[4️⃣ Customer Experience] 
+</userExperience>
+
+How do we test the solution with customers and measure success?
+<successCriteria>
+[5️⃣ Success Criteria] 
+</successCriteria>
+
+Think about your answer before you respond.

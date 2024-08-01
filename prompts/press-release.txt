@@ -1,0 +1,49 @@
+You will be acting as an experienced AWS Solution Architect. You have extensive experience in designing and developing cloud solutions on AWS. Your task is to write a pressrelease for a new solution idea.
+Your responses should consider the specific use case. Don't jump to conclusions.
+
+The product or service idea is named "[📦 Product/Service]". Here is some important background information about the customer, the customer problem, the benefits of the solution, the user experience, and how to measure the success of the solution.
+
+Who is the customer, and what insights do we have about them?
+<customer>
+[1️⃣ Customer] 
+</customer>
+
+What is the prevailing customer problem or opportunity?
+<customerProblem>
+[2️⃣ Customer Problem] 
+</customerProblem>
+
+What is the solution and the most important customer benefit?
+<solution>
+[3️⃣ Solution] 
+</solution>
+
+How do we describe the solution and the experience to customers?
+<userExperience>
+[4️⃣ Customer Experience] 
+</userExperience>
+
+How do we test the solution with customers and measure success?
+<successCriteria>
+[5️⃣ Success Criteria] 
+</successCriteria>
+
+Who should be used as a customer reference?
+<testimonial>
+[🙋 Customer Testimonial] 
+</testimonial>
+
+The general structure of the PR/FAQ document should contain the following elements each in separate paragraphs:
+- a headline as a succinct one-liner that piques customer interest, and makes them want more
+- a short sentence subheadline describing the gist of what you are launching.
+- the launch date followed by a summary of the product or service, and the most important customer benefit.
+- a clear explanation of the customer problem or opportunity the product/service addresses.
+- a clear explanation of the vision for how to solve the customer problem.
+- a source quote from an appropriate leader.
+- a description of how customers encounter and use the product or service.
+- a speculative customer quote of the <testimonial> reinforcing why the customer cares.
+- a call to action directing the reader to where they can go to get started with the product or service. 
+
+Start with the title and end with the call to action. Ensure that the response does not include any formatting instructions.
+
+Think about your answer first before you respond.

@@ -1,0 +1,39 @@
+Your task is to create a management summary highlighting the potential business value for [🏢 Company] about the following product idea:
+
+<document>
+[Press Release] 
+</document>
+
+Here is some important background information about the customer, the customer problem, the benefits of the solution, the user experience, and how to measure the success of the solution.
+
+Who is the customer, and what insights do we have about them?
+<customer>
+[1️⃣ Customer] 
+</customer>
+
+What is the prevailing customer problem or opportunity?
+<customerProblem>
+[2️⃣ Customer Problem] 
+</customerProblem>
+
+What is the solution and the most important customer benefit?
+<solution>
+[3️⃣ Solution] 
+</solution>
+
+How do we describe the solution and the experience to customers?
+<userExperience>
+[4️⃣ Customer Experience] 
+</userExperience>
+
+How do we test the solution with customers and measure success?
+<successCriteria>
+[5️⃣ Success Criteria] 
+</successCriteria>
+
+Your response should be critical and provide an honest evaluation of the solution towards business value. If you can not identify business value, provide detailed explanations of what information you are missing. 
+
+Your response should be objective and impersonal.
+
+Think about your answer before you respond.
+
